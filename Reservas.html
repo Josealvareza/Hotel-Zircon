@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    	<title>HOTEL ZIRCON</title>
+
+   		<link rel="stylesheet" href="css/bootstrap.css">
+    	<link rel="stylesheet" href="css/style.css">
+  	</head>
+  	<body>
+  		<!-- Titulo -->
+  		<center><a href="index.html"><img src="img/Titulo.png" style="max-width:100%;height:auto;"></a></center>
+
+    	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="text-center">
+					</h3>
+
+					<!-- NavBar -->
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  						<a class="navbar-brand" href="index.html">
+    					<img src="img/diamante.png" width="30" height="30" class="d-inline-block align-top" alt=""> HOTEL ZIRCON </a>
+  						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls=	"navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    						<span class="navbar-toggler-icon"></span>
+  						</button>
+ 						<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     							<li class="nav-item">
+       								<a class="nav-link" href="Paquetes.html">Paquetes<span class="sr-only">(current)</span></a>
+      							</li>
+      							<li class="nav-item">
+       								<a class="nav-link" href="Conocenos.html">Conocenos</a>
+      							</li>
+     							<li class="nav-item">
+       								<a class="nav-link" href="Contactanos.html">Contactanos</a>
+      							</li>
+    						</ul>
+
+    						<form class="form-inline my-2 my-lg-0">
+      							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    						</form>
+    					</div>
+					</nav>
+				</div>
+			</div>	
+		</div>	
+		<br>
+			
+		<!-- Formulario -->
+
+		<div class="container">
+			<center><img src="img/prima.png" style="max-width:10%;height:auto;"></center>
+			<center><h3> Reservas </h3></center>
+			<br>
+			<form>
+  				<div class="form-row">
+    				<div class="col-md-4 mb-3">
+      					<label for="validationDefault01">Nombres</label>
+      					<input type="text" class="form-control" id="validationDefault01" placeholder="Nombres Completos" required>
+    				</div>
+    				<div class="col-md-4 mb-3">
+      					<label for="validationDefault02">Apellidos</label>
+      					<input type="text" class="form-control" id="validationDefault02" placeholder="Ambos Apellidos" required>
+    				</div>
+    				<div class="col-md-4 mb-3">
+      					<label for="validationDefaultUsername">Username</label>
+      					<div class="input-group">
+        					<input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+      					</div>
+    				</div>
+  					<div class="form-row">
+    					<div class="col-md-6 mb-3">
+      						<label for="validationDefault03">Ciudad</label>
+      						<input type="text" class="form-control" id="validationDefault03" placeholder="Ciudad De Solicitud" required>
+    					</div>
+    					<div class="col-md-3 mb-3">
+      						<label for="validationDefault04">Pais</label>
+      						<input type="text" class="form-control" id="validationDefault04" placeholder="Pais De Solicitud" required>
+    					</div>
+    					<div class="form-group">
+                			<label>Tipo De Paquete</label>
+                			<select>
+                    			<option value="1">Paquete Basico</option>
+                    			<option value="2">Paquete Especial</option>
+                    			<option value="3">Paquete Presidencial</option>
+                			</select>
+                			&nbsp;
+                			<label>N° Personas</label>
+                			<select>
+                    			<option value="1"> Una </option>
+                    			<option value="12"> Dos </option>
+                    		</select>	
+            			</div>
+  					</div>
+  					<div class="creditCardForm">
+    					<div class="heading">
+        					<h1>Datos De Pago</h1>
+    					</div>
+    					<div class="payment">
+        					<form>
+            					<div class="form-group owner">
+                					<label for="owner">Propietario</label>
+                					<input type="text" class="form-control" id="owner">
+            					</div>
+            					<div class="form-group CVV">
+                					<label for="cvv">CVV</label>
+                					<input type="text" class="form-control" id="cvv">
+            					</div>
+            					<div class="form-group" id="card-number-field">
+                					<label for="cardNumber">Numero De Tarjeta</label>
+                					<input type="text" class="form-control" id="cardNumber">
+            					</div>
+            					<div class="form-group" id="expiration-date">
+                					<label>Fecha De Expiracion</label>
+                					<select>
+                    					<option value="01">Enero</option>
+                    					<option value="02">Febrero</option>
+                    					<option value="03">Marzo</option>
+                    					<option value="04">Abril</option>
+                    					<option value="05">Mayo</option>
+                    					<option value="06">Junio</option>
+                    					<option value="07">Julio</option>
+                    					<option value="08">Agosto</option>
+                    					<option value="09">Septiembre</option>
+                    					<option value="10">Octubre</option>
+                    					<option value="11">Noviembre</option>
+                    					<option value="12">Diciembre</option>
+                					</select>
+                					<select>
+                    					<option value="16"> 2016</option>
+                    					<option value="17"> 2017</option>
+                    					<option value="18"> 2018</option>
+                    					<option value="19"> 2019</option>
+                    					<option value="20"> 2020</option>
+                    					<option value="21"> 2021</option>
+                					</select>
+            					</div>
+            					<br><br><br>
+            					<div class="form-check form-check-inline" id="credit_cards">
+  									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  									<img src="img/Pago/Visa.png" id="visa" width="40" height="30">&nbsp;
+  									<label class="form-check-label" for="inlineRadio1">Visa</label>
+								</div>
+								<div class="form-check form-check-inline" id="credit_cards">
+  									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  									<img src="img/Pago/MasterCard.png" id="mastercard" width="40" height="30">&nbsp;
+  									<label class="form-check-label" for="inlineRadio2">MasterCard</label>
+								</div>
+								<div class="form-check form-check-inline" id="credit_cards">
+ 									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+ 									<img src="img/Pago/AmericanExpress.png" id="amex" width="40" height="30">&nbsp;
+  									<label class="form-check-label" for="inlineRadio3">American Express</label>
+								</div>
+            				</form>	
+        				</div>
+    				</div>
+    			</div>
+
+
+  				<div class="col-md-3 mb-3">
+					<br>
+  					<div class="form-group">
+    					<div class="form-check">
+      						<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      						<label class="form-check-label" for="invalidCheck2">
+        						Aceptar los términos y condiciones.
+      						</label>
+    					</div>
+  					</div>
+  					<button class="btn btn-primary" type="submit">Enviar Solicitud</button>
+  				</div>		
+			</form>	
+		</div>	
+		<br>
+		<footer class="contenido">
+			<center><p>Llamanos: (+57)2736354 - (035)2745847 - 3008647364</p></center>
+			<center><p class="texto">Copyright 2019 HOTEL ZIRCON</p></center>
+		</footer>
+
+    	<script src="js/jquery-3.4.1.min.js"></script>
+    	<script type="js/popper.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/scripts.js"></script>
+	</body>
+</html>
